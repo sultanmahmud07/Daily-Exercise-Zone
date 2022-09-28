@@ -1,0 +1,67 @@
+.position-set{
+ position: sticky;
+ top: 40px;
+}
+.user-img{
+  width: 30%;
+  margin: auto;
+  border-radius: 50px;
+}
+.user-img img{
+  width: 100%;
+  border-radius: 50%;
+}
+.user-desc{
+  text-align: center;
+}
+.name{
+  margin: 0px;
+  
+}
+.mail{
+  font-size: 14px;
+  margin: 0px;
+}
+.addre{
+  /* margin-top:px; */
+}
+
+
+.time-container{
+  background-color: #308fe78a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.time-set{
+  background-color: green;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.time-set:hover{
+  background-color: orange;
+  color: black;
+}
+
+.acticity-btn{
+  border: none;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.acticity-btn:hover{
+  background-color: red;
+  color: black;
+}

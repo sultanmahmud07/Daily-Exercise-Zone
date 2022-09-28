@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import SideBar from '../SideBar/SideBar';
 import SingleCart from '../SingleCart/SingleCart';
 import './Main.css';
 
@@ -14,12 +15,12 @@ const Main = () => {
   return (
     <div className='main-container'>
       <div className="main-survice">
-        hello: {categorys.length}
+        <h2 className='header-title'>Select today’s exercise {categorys.length}</h2> 
        <div className="category-container">
        {
           categorys.map(category =><SingleCart
              category ={category}
-            //  key ={id}
+             key ={category.id}
              ></SingleCart>)
         }
        </div>
@@ -28,7 +29,7 @@ const Main = () => {
 
         {/* This is cart section code here */}
       <div className="side-info">
-        <h3>This is Cart</h3>
+        <SideBar></SideBar>
       </div>
     </div>
   );

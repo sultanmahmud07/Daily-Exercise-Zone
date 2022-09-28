@@ -13,7 +13,7 @@ const Navigation = () => {
         </div>
         <div className="manu">
          <ul>
-          <li><a href="/home">Home</a></li>
+          <li><a className='home' href="/home">Home</a></li>
           <li><a href="/home">Blog</a></li>
           <li><a href="/home">Pactice</a></li>
           <li><a href="/home">Connect</a></li>

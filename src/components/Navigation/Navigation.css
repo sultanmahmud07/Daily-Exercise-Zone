@@ -13,15 +13,13 @@
 .logo img{
   width: 80px;
 }
-.manu{
 
-}
 .manu ul{
  list-style: none;
 }
 .manu ul li{
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 .manu ul li a{
   color: white;
@@ -31,4 +29,13 @@
 }
 .manu ul li a:hover{
   color: orange;
+}
+.home{
+  color: orange !important;
+}
+@media screen and (max-width: 700px){
+  .manu{
+    display: none;
+  }
+  
 }
