@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "category": "Men's Sneaker",
+    "name": "Pull Up!",
+    "seller": "Addidas",
+    "age": "20-24",
+    "time": 40,
+    "dis": "Gym goers were 40 percent less likely to be obese and 50 percent less likely to have an elevated resting heart rate",
+    
+    "img": "https://barbend.com/wp-content/uploads/2018/05/BarBend-Feature-Image-1200-x-675-19.jpg",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": 2,
+    "category": "Men's Sneaker",
+    "name": "Machin Front Pull-down",
+    "seller": "Addidas",
+    "age": "20-28",
+    "time": 20,
+    "dis": "Gym goers were 40 percent less likely to be obese and 50 percent less likely to have an elevated resting heart rate",
+ 
+    "img": "https://i.ytimg.com/vi/_8PsVipds9Y/maxresdefault.jpg",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id":3,
+    "category": "Men's Sneaker",
+    "name": "Machine hight Row",
+    "seller": "Addidas",
+    "age": "24-33",
+    "time": 55,
+    "dis": "Gym goers were 40 percent less likely to be obese and 50 percent less likely to have an elevated resting heart rate",
+    "img": "https://i0.wp.com/soma.fitness/wp-content/uploads/2021/10/machine-high-row-2.jpg?fit=1024%2C576&ssl=1",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": 4,
+    "category": "Men's Sneaker",
+    "name": "Seated Cable row",
+    "seller": "Addidas",
+    "age": "20-34",
+    "time": 55,
+    "dis": "Gym goers were 40 percent less likely to be obese and 50 percent less likely to have an elevated resting heart rate",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTwpxTdlYxlGy2u9gvtEKpIiaV423Ofc9r5Q&usqp=CAU",
+    "shipping": 14,
+    "quantity": 0
+  },
+  {
+    "id": 5,
+    "category": "Men's Sneaker",
+    "name": "Brand-over Dumble row",
+    "seller": "Addidas",
+    "age": "20-24",
+    "time": 20,
+    "dis": "Gym goers were 40 percent less likely to be obese and 50 percent less likely to have an elevated resting heart rate",
+    "img": "https://cdn.muscleandstrength.com/sites/default/files/bent-over-dumbbell-row-1.jpg",
+    "shipping": 14,
+    "quantity": 0
+  },
+  {
+    "id": 6,
+    "category": "Men's Sneaker",
+    "name": "Seated Cable row",
+    "age": "20-14",
+    "time": 40,
+    "dis": "Gym goers were 40 percent less likely to be obese and 50 percent less likely to have an elevated resting heart rate",
+    "img": "https://thumbs.dreamstime.com/b/young-woman-training-pulling-weights-seated-cable-row-machine-sportswear-gym-193664422.jpg",
+    "shipping": 14,
+    "quantity": 0
+  },
+  {
+    "id":7,
+    "category": "Men's Sneaker",
+    "name": "Chase Suppoted dumble row",
+    "seller": "Addidas",
+    "age": "20-44",
+    "time": 50,
+    "dis": "Gym goers were 40 percent less likely to be obese and 50 percent less likely to have an elevated resting heart rate",
+    "img": "https://www.muscleandfitness.com/wp-content/uploads/2015/12/The-Rock-Dumbbell-Row.jpg?w=1180&quality=86&strip=all",
+    "shipping": 14,
+    "quantity": 0
+  },
+  {
+    "id": "8",
+    "category": "Men's Sneaker",
+    "name": "Seated Cable row",
+    "seller": "Addidas",
+    "age": "20-34",
+    "time": 55,
+    "dis": "Gym goers were 40 percent less likely to be obese and 50 percent less likely to have an elevated resting heart rate",
+    "img": "https://generationiron.com/wp-content/uploads/2019/02/Dumbbell-Row-Generation-Iron-Exercise-Guide.jpg",
+    "shipping": 14,
+    "quantity": 0
+  }
+]
