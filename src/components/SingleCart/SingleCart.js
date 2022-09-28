@@ -5,7 +5,7 @@ const SingleCart = (props) => {
   const {age, name, img, dis, time} =props.category
   // console.log(props.category)
   return (
-    <div className='cart'>
+    <div className='cart' data-aos="fade-up">
       <div className='img-container'>
       <img src={img} alt="" />
       </div>
