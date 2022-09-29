@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Question from '../Extra/Question';
 import SideBar from '../SideBar/SideBar';
 import SingleCart from '../SingleCart/SingleCart';
 import './Main.css';
@@ -32,6 +33,7 @@ const Main = () => {
              ></SingleCart>)
         }
        </div>
+       <Question></Question>
       </div>
 
 
@@ -40,6 +42,7 @@ const Main = () => {
        
         <SideBar list ={list}></SideBar>
       </div>
+      
     </div>
   );
 };
