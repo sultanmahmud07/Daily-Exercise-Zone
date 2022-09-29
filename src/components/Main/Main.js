@@ -23,7 +23,7 @@ const Main = () => {
   return (
     <div className='main-container'>
       <div className="main-survice">
-        <h2 className='header-title'>Select today’s exercise {categorys.length}</h2> 
+        <h2 className='header-title'>Select today’s exercise  </h2> 
        <div className="category-container">
        {
           categorys.map(category =><SingleCart
