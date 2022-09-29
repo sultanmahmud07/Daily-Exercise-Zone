@@ -3,10 +3,11 @@ import "./SideBar.css"
 import user from "../../images/user-img.jfif"
 
 
-const SideBar = () => {
+const SideBar = (props) => {
+  const {list} =props
   return (
     <div className='position-set'>
-     <div className="user-info">
+    <div className="user-info">
      <div className='user-img'>
       <img src={user} alt="" />
      </div>

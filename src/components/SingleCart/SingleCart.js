@@ -2,8 +2,10 @@ import React from 'react';
 import './SingleCart.css';
 
 const SingleCart = (props) => {
-  const {age, name, img, dis, time} =props.category
-  // console.log(props.category)
+  const {category, handelAddToList} =props
+  const {age, name, img, dis, time} =category
+  // console.log(handelAddToList)
+  
   return (
     <div className='cart' data-aos="fade-up">
       <div className='img-container'>
@@ -13,7 +15,7 @@ const SingleCart = (props) => {
       <p className='para'>{dis}</p>
       <p>Age: {age}</p>
       <p>Time required:<span className='secound'> {time}</span>'s</p>
-      <button className='curt-btn'>Add To List</button>
+      <button onClick={() => handelAddToList(category)} className='curt-btn'>Add To List</button>
     </div>
   );
 };
