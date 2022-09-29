@@ -10,6 +10,7 @@ const Navigation = () => {
         <div className="nab-wrapper">
         <div className="logo">
           <img src={logo} alt="" />
+          {/* <span className='side-name'>EXERICISE ZONE</span> */}
         </div>
         <div className="manu">
          <ul>

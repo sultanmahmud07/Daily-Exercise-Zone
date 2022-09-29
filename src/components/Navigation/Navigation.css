@@ -10,8 +10,21 @@
   /* border-bottom: 2px solid coral; */
 
 }
+.side-name{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 15px;
+  left: 240px;
+}
 .logo img{
   width: 80px;
+  position: relative;
+  /* display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  /* flex-direction: column; */
 }
 
 .manu ul{

@@ -23,26 +23,13 @@ const SideBar = (props) => {
   const timeHandelSet1 = () =>{
     const divTime = 10;
     setTime(divTime)
-    // localStorage set 
-    const previousTime =localStorage.getItem("time")
-    const oldTime =JSON.parse(previousTime)
-    localStorage.setItem("time", JSON.stringify(divTime))
-    if(oldTime){
-      // console.log('asse')
-    }
-    else{
-      
-      // console.log('nai')
-    }
-    // console.log(time)
+    
   }
+  
   const timeHandelSet2 = () =>{
     const divTime = 20;
-    localStorage.setItem("time", JSON.stringify(divTime))
-    const newStoreData =localStorage.getItem("time")
-    const newData =JSON.parse(newStoreData)
-    setTime(newData)
-    console.log(newData)
+    setTime(divTime)
+    
   }
   const timeHandelSet3 = () =>{
     const divTime = 30;
@@ -63,9 +50,10 @@ const SideBar = (props) => {
       <img src={user} alt="" />
      </div>
      <div className="user-desc">
+      <p className='user-name'>Sultan Mahmud</p>
       <p className='name'>FontEnd developer.</p>
       <p className='mail'>Email: sultanmahmud09@gmail.com</p>
-      <p>Address: <span className='addre'>1814-Road Manikganj, Dhaka.</span></p>
+      <p className='addre'>Address: <span>1814-Road Manikganj, Dhaka.</span></p>
      </div>
      </div>
 
