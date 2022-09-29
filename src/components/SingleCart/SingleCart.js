@@ -7,7 +7,7 @@ const SingleCart = (props) => {
   // console.log(handelAddToList)
   
   return (
-    <div className='cart' data-aos="fade-up">
+    <div className='cart' data-aos="zoom-in">
       <div className='img-container'>
       <img src={img} alt="" />
       </div>

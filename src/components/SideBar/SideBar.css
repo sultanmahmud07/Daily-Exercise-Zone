@@ -22,8 +22,11 @@
   font-size: 14px;
   margin: 0px;
 }
-.addre{
-  /* margin-top:px; */
+.setTime{
+ color: rgba(255, 0, 0, 0.726);
+ font-weight: bold;
+ font-size: 20px;
+ text-shadow: 2px 2px 8px white;
 }
 
 
