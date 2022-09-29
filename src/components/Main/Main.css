@@ -20,9 +20,7 @@
 .side-info{
   background-color: orange;
   padding: 20px;
-  /* position: sticky;
-  top: 0px; */
-  /* border: 1px solid white; */
+
 }
 
 @media only screen and (max-width: 578px) {
