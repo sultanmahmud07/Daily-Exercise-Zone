@@ -5,6 +5,16 @@ import user from "../../images/user-img.jfif"
 
 const SideBar = (props) => {
   const {list} =props
+  let totalDuration = 0;
+  for(const category of list){
+    totalDuration =totalDuration + category.time;
+  }
+
+
+  const activityHandlerAdd = () =>{
+    console.log('success')
+  }
+
   return (
     <div className='position-set'>
     <div className="user-info">
@@ -33,14 +43,14 @@ const SideBar = (props) => {
       <h2>Add A Break</h2>
       <div className="time-container">
         <p>Exercise time</p>
-        <p>200 seconds</p>
+        <p><span className='total-duration'>{totalDuration}</span> seconds</p>
       </div>
       <div className="time-container">
         <p>Break time</p>
         <p>15 seconds</p>
       </div>
      </div>
-     <button className='acticity-btn'>Activity Completed</button>
+     <button onClick={activityHandlerAdd} className='acticity-btn'>Activity Completed</button>
     </div>
   );
 };
