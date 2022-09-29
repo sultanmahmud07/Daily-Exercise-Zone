@@ -18,17 +18,28 @@
   top: 15px;
   left: 240px;
 }
-.logo img{
-  width: 80px;
-  position: relative;
-  /* display: flex;
-  align-items: center;
-  /* justify-content: space-around; */
-  /* flex-direction: column; */
+.logo-text{
+  font-size: 30px;
+  padding: 20px 0px;
 }
-
+.l-e{
+  color: orange;
+  font-size: 40px;
+  font-weight: bold;
+}
+.l-z{
+  color: orange;
+  font-size: 40px;
+  font-weight: bold;
+}
+.dum{
+  font-size: 40px;
+  color: orange;
+  margin-right: 5px;
+}
 .manu ul{
  list-style: none;
+ padding: 12px;
 }
 .manu ul li{
   display: inline-block;

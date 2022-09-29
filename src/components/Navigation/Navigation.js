@@ -1,6 +1,8 @@
 import React from 'react';
-import logo from '../../images/logo.png';
+
 import './Navigation.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDumbbell } from '@fortawesome/free-solid-svg-icons'
 
 
 const Navigation = () => {
@@ -9,8 +11,8 @@ const Navigation = () => {
       <nav className='nav-container'>
         <div className="nab-wrapper">
         <div className="logo">
-          <img src={logo} alt="" />
-          {/* <span className='side-name'>EXERICISE ZONE</span> */}
+          
+          <span className='logo-text'><samp className='dum'><FontAwesomeIcon icon={faDumbbell} /></samp><span className='l-e'>E</span>xercise <span className='l-z'>Z</span>one</span>
         </div>
         <div className="manu">
          <ul>
