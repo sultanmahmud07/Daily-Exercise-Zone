@@ -22,26 +22,38 @@ const SideBar = (props) => {
   const [time, setTime] =useState(0);
   const timeHandelSet1 = () =>{
     const divTime = 10;
-    setTime(divTime)
+    localStorage.setItem('time', JSON.stringify(divTime));
+    const newDb =localStorage.getItem('time')
+    setTime(newDb)
     
   }
   
   const timeHandelSet2 = () =>{
     const divTime = 20;
-    setTime(divTime)
+    localStorage.setItem('time', JSON.stringify(divTime));
+    const newDb =localStorage.getItem('time')
+    setTime(newDb)
+
+    // console.log(newDb)
     
   }
   const timeHandelSet3 = () =>{
     const divTime = 30;
-    setTime(divTime)
+    localStorage.setItem('time', JSON.stringify(divTime));
+    const newDb =localStorage.getItem('time')
+    setTime(newDb)
   }
   const timeHandelSet4 = () =>{
     const divTime = 40;
-    setTime(divTime)
+    localStorage.setItem('time', JSON.stringify(divTime));
+    const newDb =localStorage.getItem('time')
+    setTime(newDb)
   }
   const timeHandelSet5 = () =>{
     const divTime = 50;
-    setTime(divTime)
+    localStorage.setItem('time', JSON.stringify(divTime));
+    const newDb =localStorage.getItem('time')
+    setTime(newDb)
   }
   return (
     <div className='position-set'>
